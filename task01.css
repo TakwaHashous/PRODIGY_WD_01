@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-content h2 {
+    color: #ff9900; /* orange */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #about {
+    background-color: #c6efce; /* light green */
+    padding: 20px;}
+    #about h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      #about p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      
+      #services {
+        background-color: #ff9900; /* orange */
+        padding: 20px;
+      }
+      
+      #services h3 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      #services p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      
+      #contact {
+        background-color: #c6efce; /* light green */
+        padding: 20px;
+      }
+      
+      #contact h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      #contact p {
+        font-size: 18px;
+        margin-bottom: 20px;}
+        
+        .home-button {
+            transition: background-color 0.3s ease;
+          }
+          
+          .home-button:hover {
+            background-color: #ff9900; /* orange */
+            color: #fff;
+          }
+          
+          .services-button {
+            transition: background-color 0.3s ease;
+          }
+          
+          .services-button:hover {
+            background-color: #ff9900; /* orange */
+            color: #fff;
+          }
+          
+          .about-button {
+            transition: background-color 0.3s ease;
+          }
+          .about-button:hover {
+            background-color: #c6efce; /* light green */
+            color: #333;
+          }
+          
